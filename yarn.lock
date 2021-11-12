@@ -1381,6 +1381,14 @@ balanced-match@^1.0.0:
   resolved "https://registry.yarnpkg.com/balanced-match/-/balanced-match-1.0.0.tgz#89b4d199ab2bee49de164ea02b89ce462d71b767"
   integrity sha1-ibTRmasr7kneFk6gK4nORi1xt2c=
 
+bar@^0.1.2:
+  version "0.1.2"
+  resolved "https://registry.yarnpkg.com/bar/-/bar-0.1.2.tgz#ec36d80c5fea1111fe1e32c9db38a61053225155"
+  integrity sha1-7DbYDF/qERH+HjLJ2zimEFMiUVU=
+  dependencies:
+    optimist "~ 0.2.4"
+    watch "~ 0.3.2"
+
 base64-js@^1.0.2:
   version "1.5.1"
   resolved "https://registry.yarnpkg.com/base64-js/-/base64-js-1.5.1.tgz#1b1b440160a5bf7ad40b650f095963481903930a"
@@ -1488,10 +1496,10 @@ boolbase@^1.0.0, boolbase@~1.0.0:
   resolved "https://registry.yarnpkg.com/boolbase/-/boolbase-1.0.0.tgz#68dff5fbe60c51eb37725ea9e3ed310dcc1e776e"
   integrity sha1-aN/1++YMUes3cl6p4+0xDcwed24=
 
-bootstrap@^4.6.0:
-  version "4.6.0"
-  resolved "https://registry.yarnpkg.com/bootstrap/-/bootstrap-4.6.0.tgz#97b9f29ac98f98dfa43bf7468262d84392552fd7"
-  integrity sha512-Io55IuQY3kydzHtbGvQya3H+KorS/M9rSNyfCGCg9WZ4pyT/lCxIlpJgG1GXW/PswzC84Tr2fBYi+7+jFVQQBw==
+bootstrap@4.6:
+  version "4.6.1"
+  resolved "https://registry.yarnpkg.com/bootstrap/-/bootstrap-4.6.1.tgz#bc25380c2c14192374e8dec07cf01b2742d222a2"
+  integrity sha512-0dj+VgI9Ecom+rvvpNZ4MUZJz8dcX7WCX+eTID9+/8HgOkv3dsRzi8BGeZJCQU6flWQVYxwTQnEZFrmJSEO7og==
 
 brace-expansion@^1.1.7:
   version "1.1.11"
@@ -2062,6 +2070,11 @@ constants-browserify@^1.0.0:
   version "1.0.0"
   resolved "https://registry.yarnpkg.com/constants-browserify/-/constants-browserify-1.0.0.tgz#c20b96d8c617748aaf1c16021760cd27fcb8cb75"
   integrity sha1-wguW2MYXdIqvHBYCF2DNJ/y4y3U=
+
+contains@~0.1.1:
+  version "0.1.1"
+  resolved "https://registry.yarnpkg.com/contains/-/contains-0.1.1.tgz#087a87e31e6acf399c9304b76c3575772fb6dca6"
+  integrity sha1-CHqH4x5qzzmckwS3bDV1dy+23KY=
 
 content-disposition@0.5.3:
   version "0.5.3"
@@ -4034,10 +4047,15 @@ jquery-bar-rating@^1.2.2:
   dependencies:
     jquery ">=1.7.2"
 
-jquery@>=1.7.2, jquery@^3.5.1:
+jquery@>=1.7.2:
   version "3.5.1"
   resolved "https://registry.yarnpkg.com/jquery/-/jquery-3.5.1.tgz#d7b4d08e1bfdb86ad2f1a3d039ea17304717abb5"
   integrity sha512-XwIBPqcMn57FxfT+Go5pzySnm4KWkT1Tv7gjrpT1srtf8Weynl6R273VJ5GjkRb51IzMp5nbaPjJXMWeju2MKg==
+
+jquery@^3.6.0:
+  version "3.6.0"
+  resolved "https://registry.yarnpkg.com/jquery/-/jquery-3.6.0.tgz#c72a09f15c1bdce142f49dbf1170bdf8adac2470"
+  integrity sha512-JVzAR/AjBvVt2BmYhxRCSYysDsPcssdmTFnzyLEts9qNwmjmu4JTAMYubEfwVOSwpQ1I1sKKFcxhZCI2buerfw==
 
 js-base64@^2.1.8:
   version "2.6.4"
@@ -4918,6 +4936,13 @@ opn@^5.5.0:
   integrity sha512-PqHpggC9bLV0VeWcdKhkpxY+3JTzetLSqTCWL/z/tFIbI6G8JCjondXklT1JinczLz2Xib62sSp0T/gKT4KksA==
   dependencies:
     is-wsl "^1.1.0"
+
+"optimist@~ 0.2.4":
+  version "0.2.8"
+  resolved "https://registry.yarnpkg.com/optimist/-/optimist-0.2.8.tgz#e981ab7e268b457948593b55674c099a815cac31"
+  integrity sha1-6YGrfiaLRXlIWTtVZ0wJmoFcrDE=
+  dependencies:
+    wordwrap ">=0.0.1 <0.1.0"
 
 optimize-css-assets-webpack-plugin@^5.0.3:
   version "5.0.4"
@@ -6037,6 +6062,13 @@ range-parser@^1.2.1, range-parser@~1.2.1:
   version "1.2.1"
   resolved "https://registry.yarnpkg.com/range-parser/-/range-parser-1.2.1.tgz#3cf37023d199e1c24d1a55b84800c2f3e6468031"
   integrity sha512-Hrgsx+orqoygnmhFbKaHE6c296J+HTAQXoxEF6gNupROmmGJRoyzfG3ccAveqCBrwr/2yxQ5BVd/GTl5agOwSg==
+
+rating@^0.1.0:
+  version "0.1.0"
+  resolved "https://registry.yarnpkg.com/rating/-/rating-0.1.0.tgz#85cb1840c7fe88b73f818514953986c1c00f22b8"
+  integrity sha1-hcsYQMf+iLc/gYUUlTmGwcAPIrg=
+  dependencies:
+    contains "~0.1.1"
 
 raw-body@2.4.0:
   version "2.4.0"
@@ -7185,10 +7217,10 @@ type-is@~1.6.17, type-is@~1.6.18:
     media-typer "0.3.0"
     mime-types "~2.1.24"
 
-typed.js@^2.0.11:
-  version "2.0.11"
-  resolved "https://registry.yarnpkg.com/typed.js/-/typed.js-2.0.11.tgz#d298a91f959f11a3803bf48b841a6fadd29640d9"
-  integrity sha512-1ZORHalEyLob34q738mqmwp0pT6syMigB1SZuTItqdhovWBKFIt7I5uVALXAGQZCg2MCtihCt6uqkoqPJK+9iQ==
+typed.js@^2.0.12:
+  version "2.0.12"
+  resolved "https://registry.yarnpkg.com/typed.js/-/typed.js-2.0.12.tgz#246aff074c8e18d32ec27acb7be15094ac0bc0e1"
+  integrity sha512-lyACZh1cu+vpfYY3DG/bvsGLXXbdoDDpWxmqta10IQUdMXisMXOEyl+jos+YT9uBbzK4QaKYBjT3R0kTJO0Slw==
 
 typedarray@^0.0.6:
   version "0.0.6"
@@ -7384,6 +7416,11 @@ vm-browserify@^1.0.1:
   resolved "https://registry.yarnpkg.com/vm-browserify/-/vm-browserify-1.1.2.tgz#78641c488b8e6ca91a75f511e7a3b32a86e5dda0"
   integrity sha512-2ham8XPWTONajOR0ohOKOHXkm3+gaBmGut3SRuu75xLd/RRaY6vqgh8NBYYk7+RW3u5AtzPQZG8F10LHkl0lAQ==
 
+"watch@~ 0.3.2":
+  version "0.3.3"
+  resolved "https://registry.yarnpkg.com/watch/-/watch-0.3.3.tgz#2aa776716ed463464dbaa2c2e4f9c6aca1e2fa3c"
+  integrity sha1-Kqd2cW7UY0ZNuqLC5PnGrKHi+jw=
+
 watchpack-chokidar2@^2.0.1:
   version "2.0.1"
   resolved "https://registry.yarnpkg.com/watchpack-chokidar2/-/watchpack-chokidar2-2.0.1.tgz#38500072ee6ece66f3769936950ea1771be1c957"
@@ -7566,6 +7603,11 @@ wide-align@^1.1.0:
   integrity sha512-QGkOQc8XL6Bt5PwnsExKBPuMKBxnGxWWW3fU55Xt4feHozMUhdUMaBCk290qpm/wG5u/RSKzwdAC4i51YigihA==
   dependencies:
     string-width "^1.0.2 || 2"
+
+"wordwrap@>=0.0.1 <0.1.0":
+  version "0.0.3"
+  resolved "https://registry.yarnpkg.com/wordwrap/-/wordwrap-0.0.3.tgz#a3d5da6cd5c0bc0008d37234bbaf1bed63059107"
+  integrity sha1-o9XabNXAvAAI03I0u68b7WMFkQc=
 
 worker-farm@^1.7.0:
   version "1.7.0"
