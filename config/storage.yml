@@ -1,3 +1,2 @@
 cloudinary:
   service: cloudinary
-  folder: <%= Rails.env %>
